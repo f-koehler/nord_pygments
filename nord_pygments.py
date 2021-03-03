@@ -18,6 +18,7 @@ from pygments.token import (
     Punctuation,
     Generic,
     Whitespace,
+    Literal
 )
 
 nord0 = "#2e3440"
@@ -76,6 +77,7 @@ class NordStyle(Style):
         String.Regex: nord13,
         String.Symbol: nord14,
         String.Other: nord14,
+        Literal: nord13,
         Number: nord15,
         Generic.Heading: f"bold {nord8}",
         Generic.Subheading: f"bold {nord8}",
