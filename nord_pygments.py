@@ -77,7 +77,7 @@ class NordStyle(Style):
         String.Regex: nord13,
         String.Symbol: nord14,
         String.Other: nord14,
-        Literal: nord8,
+        Literal: nord7,
         Number: nord15,
         Generic.Heading: f"bold {nord8}",
         Generic.Subheading: f"bold {nord8}",
